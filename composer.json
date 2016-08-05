@@ -1,0 +1,17 @@
+{
+    "name": "tinkers/php-pdfocr",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sagar Guhe",
+            "email": "billy_ani@yahoo.co.in"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Tinkers\\Pdfocr\\": "tinkers/" }
+    },
+    "require": {
+        "php": "^5.4",
+        "symfony/process": "^3.1"
+    }
+}
