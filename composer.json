@@ -7,11 +7,12 @@
             "email": "billy_ani@yahoo.co.in"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": { "Tinkers\\Pdfocr\\": "tinkers/" }
     },
     "require": {
-        "php": "^5.4",
+        "php": ">=5.4",
         "symfony/process": "^3.1"
     }
 }
